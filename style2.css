@@ -1,0 +1,40 @@
+h1,legend{
+    text-align:center;
+}
+
+form{
+    background-image: url();
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    width: min(500px,80%);
+    margin:auto;
+    border:1px solid gray;
+    border-radius: 5%;
+    
+
+}
+fieldset{
+ border-radius: 5%;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"],
+textarea,
+select,
+#dob{
+    width:100%;
+    padding: 5px;
+    opacity: 0.5;
+}
+#submit
+{
+    background-color: greenyellow;
+    margin-top: 50px;
+    height:30px;
+    border-radius: 10%;
+    border: 2px solid black;
+    
+}
